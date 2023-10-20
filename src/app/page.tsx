@@ -37,6 +37,7 @@ export default function Home() {
     setIsLoading(false);
   }
 
+  //submit function to sunmit users requests to OpenAI API
   const Submit = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (event.key === "Enter") {
       event.preventDefault();
