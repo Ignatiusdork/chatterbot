@@ -12,7 +12,7 @@ export default function Home() {
     },
   ]);
 
-  // getthe response call from OpenAI
+  // get the response call from OpenAI
   const callGetResponse = async () => {
     setIsLoading(true);
     let temp = messages;
