@@ -45,6 +45,7 @@ export default function Home() {
     }
   };
 
+  // return the client side
   return (
     <main
       className="flex min-h-screen flex-col items-center justify-between px-24 py-5"
